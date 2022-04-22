@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  background-color: black;
+  background-position: bottom;
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gray;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h1,
+h3,
+li{
+  text-align: left;
+  color: brown;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+button {
+  background-color: brown;
+  border: 1px solid brown;
+  color: gray;
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px 0 10px 0;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: gray;
+  color: brown;
+}
+
+
+
+
